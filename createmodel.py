@@ -58,7 +58,7 @@ for i in range(dataset.shape[0]):
     # remove non alphabatic characters
     data.append(process(sms))
 
-print(data[12])
+# print(data[12])
 
 from sklearn.feature_extraction.text import CountVectorizer
 matrix = CountVectorizer(max_features=1000)
@@ -95,4 +95,4 @@ from sklearn.metrics import confusion_matrix, classification_report, accuracy_sc
 # cr = classification_report(y_test, y_pred)
 
 accuracy = accuracy_score(y_test, y_pred)
-print(accuracy)
+print("accuracy: " + str(accuracy))

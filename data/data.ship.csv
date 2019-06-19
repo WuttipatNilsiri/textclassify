@@ -15,5 +15,8 @@ request,can i cancel the order AA1222222 because i find some where cheaper,,,
 askinfo,can i ask what is the work hours,,,
 askinfo,can i ask if my item with local track number 5465446564546 arrive at warehouse,,,
 delay,My package was ship out around 3 days ago but i don't recieve my package,,,
-
+request,i want to request for re-packaging for the package AA1222222,,,
+askinfo,i want to know information about the promotion,,,
+request,i want to see picture of the package AA1222222,,,
+request,please remove bill or reciept for package AA111111,,,
 
